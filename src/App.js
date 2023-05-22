@@ -37,11 +37,11 @@ function App() {
 
   return (
 
-    <div className="flex flex-col relative overflow-y-auto justify-center min-h-screen bg-gradient-to-r from-black from-10% via-gray-900 via-50% to-gray-950 to-90% items-center" >
+    <div className="flex flex-col overflow-y-auto justify-center min-h-screen bg-gradient-to-r from-black from-10% via-gray-900 via-50% to-gray-950 to-90% items-center" >
 
 
 
-      <div className='heading mt-20 shadow-lg shadow-cyan-500/50 bg-gradient-to-r from-green-400 to-blue-500 font-bold h-fit w-fit text-gray-900 font-extrabold p-3 px-10 rounded font-mono text-2xl text-center'><h1>{todaysDate()}</h1></div>
+      <div className='heading shadow-lg shadow-cyan-500/50 bg-gradient-to-r from-green-400 to-blue-500 font-bold h-fit w-fit text-gray-900 font-extrabold p-3 px-10 rounded font-mono text-2xl text-center'><h1>{todaysDate()}</h1></div>
 
 
 
