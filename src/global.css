@@ -1,3 +1,250 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media screen and (max-width: 1450px) {
+    .heading {
+        font-size: larger;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+    .heading {
+        font-size: medium;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .tasksleft {
+        font-size: small;
+    }
+
+    .taskinput {
+        font-size: medium;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    .heading {
+        font-size: medium;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .tasksleft {
+        font-size: small;
+    }
+
+    .taskinput {
+        font-size: medium;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+    .heading {
+        font-size: medium;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+
+    }
+
+    .add_task_div {
+        width: 350px;
+
+    }
+
+    .tasks_ul {
+        padding: 0%;
+        width: 350px;
+
+    }
+
+    .tasksleft {
+        font-size: small;
+    }
+
+    .taskinput {
+        font-size: medium;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .heading {
+        font-size: medium;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+
+    }
+
+    .add_task_div {
+        width: 330px;
+
+    }
+
+    .tasks_ul {
+        padding: 0%;
+        width: 330px;
+        font-size: medium;
+
+    }
+
+    .tasksleft {
+        font-size: small;
+    }
+
+    .taskinput {
+        font-size: medium;
+    }
+
+    .tasks {
+        margin-top: 3px;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+    .heading {
+        font-size: medium;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+
+    }
+
+    .add_task_div {
+        width: 300px;
+
+
+    }
+
+    .tasks_ul {
+        padding: 0%;
+        width: 300px;
+        font-size: medium;
+
+    }
+
+    .tasksleft div {
+        font-size: small;
+        width: 100px;
+
+    }
+
+    .taskinput {
+        font-size: medium;
+    }
+
+    .tasks {
+        margin-top: 3px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 490px) {
+    .heading {
+        font-size: small;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+
+    .add_task_div {
+        width: 280px;
+
+
+    }
+
+    .tasks_ul {
+        padding: 0%;
+        width: 280px;
+        font-size: small;
+
+    }
+
+    .tasksleft div {
+        font-size: small;
+        width: 100px;
+
+    }
+
+    .taskinput {
+        font-size: small;
+    }
+
+    .addbtn {
+        font-size: small;
+    }
+
+    .tasks {
+        margin-top: 3px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+    .heading {
+        font-size: small;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+
+    .add_task_div {
+        width: 250px;
+
+
+    }
+
+    .tasks_ul {
+        padding: 0%;
+        width: 250px;
+        font-size: small;
+
+    }
+
+    .tasksleft div {
+        font-size: x-small;
+
+    }
+
+    .taskinput {
+        font-size: small;
+    }
+
+    .addbtn {
+        font-size: small;
+        margin: 3px;
+        margin-top: 6px;
+    }
+
+    .tasks {
+        margin-top: 3px;
+    }
+
+
+
+
+}
