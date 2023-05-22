@@ -41,7 +41,7 @@ function App() {
 
 
 
-      <div className='heading shadow-lg shadow-cyan-500/50 bg-gradient-to-r from-green-400 to-blue-500 font-bold h-fit w-fit text-gray-900 font-extrabold p-3 px-10 rounded font-mono text-2xl text-center'><h1>{todaysDate()}</h1></div>
+      <div className='heading mt-10 shadow-lg shadow-cyan-500/50 bg-gradient-to-r from-green-400 to-blue-500 font-bold h-fit w-fit text-gray-900 font-extrabold p-3 px-10 rounded font-mono text-2xl text-center'><h1>{todaysDate()}</h1></div>
 
 
 
